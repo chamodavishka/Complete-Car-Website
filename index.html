@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--- title -->
+    <title>Autozone - Auto Dealer & Car Rental</title>
+    <!--- customer css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--- boxicon cdn link -->
+    <link rel="stylesheet"  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    
+    
+    <header class="header">
+        <!--- top header section start -->
+        <div class="top">
+            <div class="top-col-1">
+                <span><i class='bx bxs-phone' ></i>+987 654 3210</span>
+                <span><i class='bx bxs-envelope' ></i>autoz (AT) zone.com</span>
+            </div>
+            <div class="top-col-2">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-google-plus' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+        </div>
+        <!--- bottom header section start -->
+        <div class="bottom">
+            <div class="bottom-col-one">
+                <img src="images/big-logo.png" alt="">
+            </div>
+            <div class="bottom-col-two">
+                <ul class="navLinks">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">vehicle listings</a></li>
+                    <li><a href="#">auto community</a></li>
+                    <li><a href="#">our news</a></li>
+                    <li><a href="#contact">contact</a></li>
+
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook' ></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-google-plus' ></i></a>
+                        <a href="#"><i class='bx bxl-youtube' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    </div>
+                    <span class="bx bx-x" id="closeBtn"></span>
+                </ul>
+                <i class='bx bx-compass'><span>0</span></i>
+                <a href="#" class="sell">sell your car</a>
+                <div class="user">
+                    <img src="images/none.png" alt="">
+                    <div class="name">
+                        <h5>hi, user</h5>
+                        <a href="#"><i class='bx bxs-arrow-to-right'></i>sign in</a>
+                    </div>
+                </div>
+                <i class="bx bx-menu" id="menuBar"></i>
+            </div>
+        </div>
+    </header>
+
+    <!--- home section start -->
+    <div class="home">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="images/hero-1.jpg" alt="">
+                    <div class="container">
+                        <a href="#">the all new</a>
+                        <h2>2016 Acura ILX</h2>
+                        <p>High Performance & Outstanding <br> Technology Combined</p>
+
+                        <div class="price">
+                            <span>$37,390<i class='bx bxs-right-arrow'></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="images/hero-2.jpg" alt="">
+                    <div class="container">
+                        <a href="#">the all new</a>
+                        <h2>2016 Acura ILX</h2>
+                        <p>High Performance & Outstanding <br> Technology Combined</p>
+
+                        <div class="price">
+                            <span>$37,390<i class='bx bxs-right-arrow'></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="images/hero-3.jpg" alt="">
+                    <div class="container">
+                        <a href="#">the all new</a>
+                        <h2>2016 Acura ILX</h2>
+                        <p>High Performance & Outstanding <br> Technology Combined</p>
+
+                        <div class="price">
+                            <span>$37,390<i class='bx bxs-right-arrow'></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+    <!--- welcome section start -->
+    <div class="welcome">
+        <div class="wel-row">
+            <div class="wel-col-one">
+                <div class="col-1">
+                    <span>all brands</span>
+                </div>
+                <div class="col-2">
+                    <span>free support</span>
+                </div>
+            </div>
+            <div class="wel-col-two">
+                <p>welcome to</p>
+                <h2>autozone</h2>
+                <h5>the online autos world</h5>
+                <div class="mark">
+                    <i class='bx bx-chevron-left chev'></i>
+                    <i class='bx bxs-down-arrow down'></i>
+                    <i class='bx bx-chevron-right chev'></i>
+                </div>
+            </div>
+            <div class="wel-col-one">
+                <div class="col-3">
+                    <span>dealership</span>
+                </div>
+                <div class="col-4">
+                    <span>affordable</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- find section start -->
+    <section class="find">
+        <div class="find-row-one">
+            <div class="find-col">
+                <select>
+                    <option value="" class="active"><a href="#">All Marks</a></option>
+                    <option value=""><a href="#">BMW</a></option>
+                    <option value=""><a href="#">AUDI</a></option>
+                    <option value=""><a href="#">MERCEDES-BENZ</a></option>
+                    <option value=""><a href="#">PORSHE</a></option>
+                    <option value=""><a href="#">FERRARI</a></option>
+                </select>
+                <P>MAKERS OF VEHICLE</P>
+            </div>
+            <div class="find-col">
+                <select>
+                    <option value=""><a href="#">All Marks</a></option>
+                </select>
+                <P>MODEL OF THE VEHICLE</P>
+            </div>
+            <div class="find-col">
+                <select>
+                    <option value="" class="active"><a href="#">All purposes</a></option>
+                    <option value=""><a href="#">Rent</a></option>
+                    <option value=""><a href="#">Sell</a></option>
+                    <option value=""><a href="#">Sold</a></option>
+                </select>
+                <P>PURPOSE</P>
+            </div>
+            <div class="find-col">
+                <select>
+                    <option value="" class="active"><a href="#">All Fuel Types</a></option>
+                    <option value=""><a href="#">Petrol</a></option>
+                    <option value=""><a href="#">Diesel</a></option>
+                    <option value=""><a href="#">Hybrid</a></option>
+                    <option value=""><a href="#">Plugin Electric</a></option>
+                </select>
+                <P>FUEL TYPE</P>
+            </div>
+            <div class="find-col">
+                <button>find it now</button>
+            </div>
+        </div>
+        <div class="find-row-two">
+            <img src="images/find-2.png" alt="">
+        </div>
+        <div class="find-row-three">
+            <div class="col-1">
+                <img src="images/l-1.JPG" alt="">
+                <p>lexus</p>
+                <span>3</span>
+            </div>
+            <div class="col-1">
+                <img src="images/l-2.JPG" alt="">
+                <p>ferrari</p>
+                <span>7</span>
+            </div>
+            <div class="col-1">
+                <img src="images/l-3.JPG" alt="">
+                <p>bentley</p>
+                <span>9</span>
+            </div>
+            <div class="col-1">
+                <img src="images/l-4.JPG" alt="">
+                <p>bmw</p>
+                <span>2</span>
+            </div>
+            <div class="col-1">
+                <img src="images/l-5.JPG" alt="">
+                <p>audi</p>
+                <span>5</span>
+            </div>
+            <div class="col-1">
+                <img src="images/l-6.JPG" alt="">
+                <p>mercedes-benz</p>
+                <span>8</span>
+            </div>
+            <div class="col-1">
+                <img src="images/l-7.JPG" alt="">
+                <p>porshe</p>
+                <span>4</span>
+            </div>
+        </div>
+    </section>
+
+    <!--- our service section start -->
+    <div class="service">
+        <h2>Our Services</h2>
+        <h4>we are offering vehicle services 24/7</h4>
+       
+            <div class="swiper myServices">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <img src="images/s1.JPG" alt="">
+                        <span>Vehicle</span>
+                        <h3>repairing</h3>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <img src="images/s2.JPG" alt="">
+                        <span>Vehicle</span>
+                        <h3>tuning</h3>   
+                    </div>
+                    <div class="swiper-slide slide">
+                        <img src="images/s3.JPG" alt="">
+                        <span>Vehicle</span>
+                        <h3>protection</h3>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <img src="images/s4.JPG" alt="">
+                        <span>Vehicle</span>
+                        <h3>Navigation</h3>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <img src="images/s5.JPG" alt="">
+                        <span>Vehicle</span>
+                        <h3>speed</h3>
+                    </div>  
+                    <div class="swiper-slide slide">
+                        <img src="images/s1.JPG" alt="">
+                        <span>Vehicle</span>
+                        <h3>repairing</h3>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <img src="images/s2.JPG" alt="">
+                        <span>Vehicle</span>
+                        <h3>tuning</h3>   
+                    </div>
+                    <div class="swiper-slide slide">
+                        <img src="images/s3.JPG" alt="">
+                        <span>Vehicle</span>
+                        <h3>protection</h3>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <img src="images/s4.JPG" alt="">
+                        <span>Vehicle</span>
+                        <h3>Navigation</h3>
+                    </div>   
+                    <div class="swiper-slide slide">
+                        <img src="images/s5.JPG" alt="">
+                        <span>Vehicle</span>
+                        <h3>speed</h3>
+                    </div> 
+                </div>
+            </div>
+    </div>
+
+    <!--- offer section start -->
+    <section class="offer">
+        <h2>Latest Offers</h2>
+        <h4>HELPS YOU TO FIND YOUR NEXT CAR EASILY</h4>
+
+        <div class="offer-row">
+            <div class="offer-col-1">
+                <img src="images/r-1.jpeg" alt="">
+                <div class="price">
+                    <h5>Ford Mustang GT</h5>
+                    <p>$1,800</p>
+                </div>
+            </div>
+            <div class="offer-col-2">
+                <div class="col-1">
+                    <img src="images/r-2.jpeg" alt="">
+                    <h5>Ford Mustang Ecoboost</h5>
+                    <div class="price">
+                        <div class="date">
+                            <span><i class='bx bx-tachometer'></i>8563</span>
+                            <span><i class='bx bx-alarm' ></i>2013</span>
+                        </div>
+                        <p>$1,800</p>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <img src="images/r-3.jpeg" alt="">
+                    <h5>Ford Mustang GT Fastback</h5>
+                    <div class="price">
+                        <div class="date">
+                            <span><i class='bx bx-tachometer'></i>8563</span>
+                            <span><i class='bx bx-alarm' ></i>2013</span>
+                        </div>
+                        <p>$1,800</p>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <img src="images/r-4.jpg" alt="">
+                    <h5>Dodge Charget</h5>
+                    <div class="price">
+                        <div class="date">
+                            <span><i class='bx bx-tachometer'></i>8563</span>
+                            <span><i class='bx bx-alarm' ></i>2013</span>
+                        </div>
+                        <p>$1,800</p>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <img src="images/r-5.jpeg" alt="">
+                    <h5>Ford Mustang Convertible</h5>
+                    <div class="price">
+                        <div class="date">
+                            <span><i class='bx bx-tachometer'></i>8563</span>
+                            <span><i class='bx bx-alarm' ></i>2013</span>
+                        </div>
+                        <p>$1,800</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---- Facts section start -->
+    <div class="fact">
+        <h2>real facts</h2>
+        <h4>WE ARE OFFERING VEHICLE SERVICES 24/7</h4>
+
+        <div class="fact-row">
+            <div class="fact-col">
+                <img src="images/f1.JPG" alt="">
+                <div class="num">
+                    <h3>10000+</h3>
+                    <p>Passed Graduates</p>
+                </div>
+            </div>
+            <div class="fact-col">
+                <img src="images/f2.JPG" alt="">
+                <div class="num">
+                    <h3>900+</h3>
+                    <p>Counter Reached</p>
+                </div>
+            </div>
+            <div class="fact-col">
+                <img src="images/f3.JPG" alt="">
+                <div class="num">
+                    <h3>1200+</h3>
+                    <p>Qualified Staff</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---- about section start -->
+    <section class="about">
+        <h2>about us</h2>
+        <h4>HELPS YOU TO FIND YOUR NEXT CAR EASILY</h4>
+
+        <div class="about-row">
+            <div class="about-col-1">
+                <h3>TRUSTED NAME IN AUTO-WORLD</h3>
+                <img src="images/decore002.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ipsa magni, dignissimos saepe et iure provident molestias! Esse, voluptatum sit.</p>
+
+                <div class="text-col">
+                    <h5>WE HAVE LARGEST VEHICLES STOCK</h5>
+                    <img src="images/decore002.png" alt="">
+                </div>
+                <div class="text-col">
+                    <h5>WE GOT WORLDWIDE LOCATIONS</h5>
+                    <img src="images/decore002.png" alt="">
+                </div>
+                <div class="text-col">
+                    <h5>WE DEAL IN ALL KINDS OF BRANDS & VEHICLES</h5>
+                    <img src="images/decore002.png" alt="">
+                </div>
+            </div>
+            <div class="about-col-2">
+                <img src="images/about-1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!---- type section start -->
+    <div class="type">
+        <h2>types of vehicles</h2>
+        <h4>THAT WE ARE CURRENTLY DEALING</h4>
+
+        <div class="type-row">
+            <div class="type-col">
+                <img src="images/t-1.png" alt="">
+                <h4>luxury cars</h4>
+            </div>
+            <div class="type-col">
+                <img src="images/t-2.png" alt="">
+                <h4>sports</h4>
+            </div>
+            <div class="type-col">
+                <img src="images/t-3.png" alt="">
+                <h4>suvs</h4>
+            </div>
+            <div class="type-col">
+                <img src="images/t-4.png" alt="">
+                <h4>Truck</h4>
+            </div>
+            <div class="type-col">
+                <img src="images/t-5.png" alt="">
+                <h4>vans & trucks</h4>
+            </div>
+            <div class="type-col">
+                <img src="images/t-6.png" alt="">
+                <h4>sedans</h4>
+            </div>
+        </div>
+    </div>
+
+    <!---- team section start -->
+    <section class="team">
+        <h2>our team</h2>
+        <h4>helps you to find your next car easily</h4>
+
+        <div class="team-row">
+            <div class="team-col">
+                <div class="user">
+                    <img src="images/user-1.jpg" alt="">
+
+                    <div class="social">
+                        <i class="bx bxl-facebook"></i>
+                        <i class="bx bxl-instagram"></i>
+                        <i class="bx bxl-twitter"></i>
+                        <i class="bx bxl-youtube"></i>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3>william benson</h3>
+                    <span>owner & ceo</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, enim.</p>
+
+                    <h6>skill level</h6>
+                    <div class="bottom"></div>
+                </div>
+            </div>
+            <div class="team-col">         
+                <div class="info">
+                    <h3>william benson</h3>
+                    <span>owner & ceo</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, enim.</p>
+
+                    <h6>skill level</h6>
+                    <div class="bottom"></div>
+                </div>
+                <div class="user">
+                    <img src="images/user-2.jpg" alt="">
+                    <div class="social">
+                        <i class="bx bxl-facebook"></i>
+                        <i class="bx bxl-instagram"></i>
+                        <i class="bx bxl-twitter"></i>
+                        <i class="bx bxl-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="team-col">
+                <div class="user">
+                    <img src="images/user-3.jpg" alt="">
+                    <div class="social">
+                        <i class="bx bxl-facebook"></i>
+                        <i class="bx bxl-instagram"></i>
+                        <i class="bx bxl-twitter"></i>
+                        <i class="bx bxl-youtube"></i>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3>william benson</h3>
+                    <span>owner & ceo</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, enim.</p>
+                    <h6>skill level</h6>
+                    <div class="bottom"></div>
+                </div>
+            </div>
+            <div class="team-col">       
+                <div class="info">
+                    <h3>william benson</h3>
+                    <span>owner & ceo</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, enim.</p>
+                    <h6>skill level</h6>
+                    <div class="bottom"></div>
+                </div>
+                <div class="user">
+                    <img src="images/user-4.jpg" alt="">
+                    <div class="social">
+                        <i class="bx bxl-facebook"></i>
+                        <i class="bx bxl-instagram"></i>
+                        <i class="bx bxl-twitter"></i>
+                        <i class="bx bxl-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---- latest section start -->
+    <section class="latest">
+        <h2>latest galleries</h2>
+        <h4>checkout the awesome images & videos</h4>
+
+        <div class="latest-row">
+            <div class="latest-col">
+                <img src="images/latest-1.jpg" alt="">
+                <div class="other">
+                    <i class="bx bx-search"></i>
+                    <p>Car Name</p>
+                </div>
+            </div>
+            <div class="latest-col">
+                <img src="images/latest-2.jpg" alt="">
+                <div class="other">
+                    <i class="bx bx-search"></i>
+                    <p>Car Name</p>
+                </div>
+            </div>
+            <div class="latest-col">
+                <img src="images/latest-3.jpg" alt="">
+                <div class="other">
+                    <i class="bx bx-search"></i>
+                    <p>Car Name</p>
+                </div>
+            </div>
+            <div class="latest-col">
+                <img src="images/latest-4.jpg" alt="">
+                <div class="other">
+                    <i class="bx bx-search"></i>
+                    <p>Car Name</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---- news section start -->
+    <section class="news">
+        <div class="header">
+            <div class="left">
+                <h2>latest news</h2>
+                <h4>read our latest blog news</h4>
+            </div>
+            <button>read all news</button>
+        </div>
+
+        <div class="news-row">
+            <div class="news-col">
+                <h3>kind creepeth moveth</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus labore beatae porro a? Repudiandae vitae molestiae, adipisci odit dolorum dolorem alias porro aut culpa itaque error esse, ratione quasi voluptates.</p>
+            </div>
+            <div class="news-img">
+                <img src="images/n-1.jpg" alt="">
+                <i class="bx bx-search"></i>
+            </div>
+        </div>
+        <div class="news-row">
+            <div class="news-img">
+                <img src="images/n-2.jpg" alt="">
+                <i class="bx bx-search"></i>
+            </div>
+            <div class="news-col">
+                <h3>kind creepeth moveth</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus labore beatae porro a? Repudiandae vitae molestiae, adipisci odit dolorum dolorem alias porro aut culpa itaque error esse, ratione quasi voluptates.</p>
+            </div>
+        </div>
+        <div class="news-row">
+            <div class="news-col">
+                <h3>kind creepeth moveth</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus labore beatae porro a? Repudiandae vitae molestiae, adipisci odit dolorum dolorem alias porro aut culpa itaque error esse, ratione quasi voluptates.</p>
+            </div>
+            <div class="news-img">
+                <img src="images/n-3.jpg" alt="">
+                <i class="bx bx-search"></i>
+            </div>
+        </div>
+    </section>
+
+    <!---- customer section start -->
+    <div class="customer">
+        <h2>what customer say</h2>
+        <h4>helps you to find perfect car</h4>
+
+        <div class="swiper MyCustomer">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <h3>best cars!</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        <div class="client">
+                            <img src="images/cs-1.jpg" alt="">
+                            <div class="info">
+                                <h6>jenny jacobs</h6>
+                                <span>customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <h3>awesome!</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        <div class="client">
+                            <img src="images/cs-2.jpg" alt="">
+                            <div class="info">
+                                <h6>jenny jacobs</h6>
+                                <span>customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <h3>top theme !!</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        <div class="client">
+                            <img src="images/cs-3.jpg" alt="">
+                            <div class="info">
+                                <h6>jenny jacobs</h6>
+                                <span>customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <h3>good work !!</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        <div class="client">
+                            <img src="images/cs-4.jpg" alt="">
+                            <div class="info">
+                                <h6>jenny jacobs</h6>
+                                <span>customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <h3>awesome !!</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        <div class="client">
+                            <img src="images/cs-1.jpg" alt="">
+                            <div class="info">
+                                <h6>jenny jacobs</h6>
+                                <span>customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <h3>top theme !!</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        <div class="client">
+                            <img src="images/cs-2.jpg" alt="">
+                            <div class="info">
+                                <h6>jenny jacobs</h6>
+                                <span>customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <h3>good work !!</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        <div class="client">
+                            <img src="images/cs-3.jpg" alt="">
+                            <div class="info">
+                                <h6>jenny jacobs</h6>
+                                <span>customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <h3>top theme !!</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        <div class="client">
+                            <img src="images/cs-4.jpg" alt="">
+                            <div class="info">
+                                <h6>jenny jacobs</h6>
+                                <span>customer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!---- contact section start -->
+    <section class="contact" id="contact">
+        <div class="mark">
+            <i class='bx bx-chevron-left chev'></i>
+            <i class='bx bxs-down-arrow down'></i>
+            <i class='bx bx-chevron-right chev'></i>
+        </div>
+        <h4>feel free to send us a message <br> or ask for a free quote</h4>
+
+        <div class="form">
+            <div class="row">
+                <div class="inputBx">
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="inputBx">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="inputBx">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBx">
+                    <input type="text" placeholder="Phone">
+                </div>
+            </div>
+            <textarea cols="0" rows="8" placeholder="Message"></textarea>
+
+            <button>send message</button>
+        </div>
+    </section>
+
+    <!---- footer section start -->
+    <div class="footer">
+        <div class="footer-top">
+            <div class="logo">
+                <img src="images/footer-logo.jpg" alt="">
+            </div>
+            <div class="line"></div>
+            <h4>:showroom location:</h4>
+            <h5>32 Market St.128,Deejs Town,Florida,CA 12345</h5>
+    
+            <div class="info">
+                <div class="details">
+                    <p><span>phone:</span>+1 (234) 567 8900</p>
+                    <p><span>fax:</span>+1 (234) 567 8900</p>
+                    <p><span>email:</span>info@gmail.com</p>
+                    <p><span>hours:</span>Mon-Fri : 9am-6pm</p></div>
+                </div>
+    
+                <div class="social">
+                    <i class="bx bxl-youtube"></i>
+                    <i class="bx bxl-instagram"></i>
+                    <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>COPYRIGHT © 2022 WEBSITE TEMPLATE. ALL RIGHTS RESERVED.</p>
+    </div>
+
+    <!--- swiper js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--- customer Js file -->
+    <script src="js/script.js"></script>
+</body>
+</html>
